@@ -16,18 +16,18 @@ Currently this plugin adds six actions to Touch portal for use with VTS.
 **Load Model** -  on load of Touch Portal and connection to VTS this is populated with a list of all models currently accessable to VTS. Use the drop down list to select a model to load. (This list currently can only be updated by stop/start the plugin or restarting TP itself.)
 
 **Move Model** -  This action is to move your model around! There are six paramaters for this action
-                  * Time(s)
-                    * Time to travel in seconds from origin to the paramaters you input. min = 0, max = 2, **Example Time(s) 0.5.**
-                  * Reletive
-                    * If movement is done from 0,0 or from where the model currently is. True is from 0,0 and False is from models current posistion.
-                  * X
-                    * This is the movement of the left and right plane. A negitive number will go left and a positive number will go right. -1 and 1 are the edges of the screen but you can input a max of -1000, 1000. **Example X 0.5**
-                  * Y
-                    * This is the movement of the up and down plane. A negitive number will go down and a positive number will go up. -1 and 1 are the edges of the screen but you can input a max of -1000, 1000. **Example Y -0.2**
-                  * Rotation
-                    * For Rotating your model negitive number will turn counter clockwise and positive will go clockwise. min = -360, max = 360, **Example Rotation -90**
-                  * Size
-                    * The size of your model displayed. A negitive number will make smaller and a positive number will make larger. min = -100, max = 100, **Example Rotation -75**
+* Time(s)
+  * Time to travel in seconds from origin to the paramaters you input. min = 0, max = 2, **Example Time(s) 0.5.**
+* Reletive
+  * If movement is done from 0,0 or from where the model currently is. True is from 0,0 and False is from models current posistion.
+* X
+  * This is the movement of the left and right plane. A negitive number will go left and a positive number will go right. -1 and 1 are the edges of the screen but you can input a max of -1000, 1000. **Example X 0.5**
+* Y
+  * This is the movement of the up and down plane. A negitive number will go down and a positive number will go up. -1 and 1 are the edges of the screen but you can input a max of -1000, 1000. **Example Y -0.2**
+* Rotation
+  * For Rotating your model negitive number will turn counter clockwise and positive will go clockwise. min = -360, max = 360, **Example Rotation -90**
+* Size
+  * The size of your model displayed. A negitive number will make smaller and a positive number will make larger. min = -100, max = 100, **Example Rotation -75**
 
 ![coordinate_explanation](images/coordinate_explanation.png)
 
