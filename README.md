@@ -38,15 +38,15 @@ Currently this plugin adds six actions to Touch portal for use with VTS.
 **Tint Art Mesh** - This has the same colour picker from "Tint All Art Mesh" but with optional paramaters to add. All fields can contain multiple paramater inputs seperated by a comma and a space i.e. ", "
 
 * Mesh Number
- * For tinting a mesh via its number. This is the number of meshes location in the array (It does not correspond to the number at the end of an artmesh name). **Example - Mesh Number: 0, 25, 100**
+  * For tinting a mesh via its number. This is the number of meshes location in the array (It does not correspond to the number at the end of an artmesh name). **Example - Mesh Number: 0, 25, 100**
 * Name Exact
- * For tinting a mesh with the exact name you input. **Example - Name Exact: HairLeft1, HairRight2, artMesh99**
+  * For tinting a mesh with the exact name you input. **Example - Name Exact: HairLeft1, HairRight2, artMesh99**
 * Name Contains
- * For tinting all meshes that contain what you input in its name. **Example - Name Contains: Hair**
+  * For tinting all meshes that contain what you input in its name. **Example - Name Contains: Hair**
 * Tag Exact
- * For tinting all meshes within the exact tag you input. **Example - Name Exact: HairLeft, HairBack**
+  * For tinting all meshes within the exact tag you input. **Example - Name Exact: HairLeft, HairBack**
 * Tag Contains
- * For tinting all meshes within all tags that conatian what you input. **Example - Name Exact: Clothing**
+  * For tinting all meshes within all tags that conatian what you input. **Example - Name Exact: Clothing**
 
 **Display Model Data** - This will gather all relevent model data you might need for this plugin and save it as a txt file in TP_VTS plugin folder. Once it has compiled that data it will open it automaticly for you to read. **You should NOT run this in a button that you will use often. It is only for information gathering to be used by you in the other actions.**
 
