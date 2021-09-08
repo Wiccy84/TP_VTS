@@ -17,25 +17,36 @@ Currently this plugin adds six actions to Touch portal for use with VTS.
 
 **Move Model** -  This action is to move your model around! There are six paramaters for this action
 * Time(s)
-  * Time to travel in seconds from origin to the paramaters you input. min = 0, max = 2, **Example Time(s) 0.5.**
+  * Time to travel in seconds from origin to the paramaters you input. min = 0, max = 2, **Example - Time(s): 0.5.**
 * Reletive
   * If movement is done from 0,0 or from where the model currently is. True is from 0,0 and False is from models current posistion.
 * X
-  * This is the movement of the left and right plane. A negitive number will go left and a positive number will go right. -1 and 1 are the edges of the screen but you can input a max of -1000, 1000. **Example X 0.5**
+  * This is the movement of the left and right plane. A negitive number will go left and a positive number will go right. -1 and 1 are the edges of the screen but you can input a max of -1000, 1000. **Example - X: 0.5**
 * Y
-  * This is the movement of the up and down plane. A negitive number will go down and a positive number will go up. -1 and 1 are the edges of the screen but you can input a max of -1000, 1000. **Example Y -0.2**
+  * This is the movement of the up and down plane. A negitive number will go down and a positive number will go up. -1 and 1 are the edges of the screen but you can input a max of -1000, 1000. **Example - Y: -0.2**
 * Rotation
-  * For Rotating your model negitive number will turn counter clockwise and positive will go clockwise. min = -360, max = 360, **Example Rotation -90**
+  * For Rotating your model negitive number will turn counter clockwise and positive will go clockwise. min = -360, max = 360, **Example - Rotation: -90**
 * Size
-  * The size of your model displayed. A negitive number will make smaller and a positive number will make larger. min = -100, max = 100, **Example Rotation -75**
+  * The size of your model displayed. A negitive number will make smaller and a positive number will make larger. min = -100, max = 100, **Example - Size: -75**
 
 ![coordinate_explanation](images/coordinate_explanation.png)
 
-**Run Hotkey**
+**Run Hotkey** - For executing any hotkeys you have made for the current model. Just fill in the field with the name of the hotkey.
 
-**Tint All Art Mesh**
+**Tint All Art Mesh** - For tinting your whole model. Click on the drop down box this will show a swatches palette. You can pick from them or click custom colours which will open a colour picker window to pick any colour you want and change the opacity as well. **White = default model colour**.
 
-**Tint Art Mesh**
+**Tint Art Mesh** - This has the same colour picker from "Tint All Art Mesh" but with optional paramaters to add. All fields can contain multiple paramater inputs seperated by a comma and a space i.e. ", "
 
-**Display Model Data**
+* Mesh Number
+ * For tinting a mesh via its number. This is the number of meshes location in the array (It does not correspond to the number at the end of an artmesh name). **Example - Mesh Number: 0, 25, 100**
+* Name Exact
+ * For tinting a mesh with the exact name you input. **Example - Name Exact: HairLeft1, HairRight2, artMesh99**
+* Name Contains
+ * For tinting all meshes that contain what you input in its name. **Example - Name Contains: Hair**
+* Tag Exact
+ * For tinting all meshes within the exact tag you input. **Example - Name Exact: HairLeft, HairBack**
+* Tag Contains
+ * For tinting all meshes within all tags that conatian what you input. **Example - Name Exact: Clothing**
+
+**Display Model Data** - This will gather all relevent model data you might need for this plugin and save it as a txt file in TP_VTS plugin folder. Once it has compiled that data it will open it automaticly for you to read. **You should NOT run this in a button that you will use often. It is only for information gathering to be used by you in the other actions.**
 
