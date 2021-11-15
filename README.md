@@ -22,7 +22,7 @@ Currently this plugin adds six actions to Touch portal for use with VTS.
 * Time(s)
   * Time to travel in seconds from origin to the paramaters you input. min = 0, max = 2, **Example - Time(s): 0.5.**
 * Relative
-  * If movement is done from 0,0 or from where the model currently is. True is from 0,0 and False is from models current posistion.
+  * If movement is done from models defaults or from where the model currently is. True is from models current posistion and False 0,0 (models defaults).
 * X
   * This is the movement of the left and right plane. A negative number will go left and a positive number will go right. -1 and 1 are the edges of the screen but you can input a max of -1000, 1000. **Example - X: 0.5**
 * Y
